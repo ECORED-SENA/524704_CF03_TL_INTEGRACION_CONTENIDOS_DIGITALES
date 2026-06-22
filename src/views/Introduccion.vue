@@ -2,16 +2,18 @@
   .curso-main-container.introduccion
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span
             i.fas.fa-info
         h1 Introducción
-      .row.justify-content-center.align-items-center           
-        .col-lg-12
-          figure
-            .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .row.align-items-center.mb-4(data-aos="fade-left")
+        .col-lg-auto.order-lg-2
+          p.mb-0 En el presente componente tendrá la posibilidad de abordar los fundamentos de la animación y elementos determinantes para comprender las técnicas para su aplicación. A continuación, le invitamos a conocer más:
+      figure(data-aos="fade-right")
+        .video.mb-2
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/qDKOxanFT88?si=qfo2PA_gXmm_XOgj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption.fw-normal #[b Video:] Fundamentos de la animación: introducción
 
 </template>
 

@@ -2,13 +2,143 @@
   .curso-main-container.pb-3
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 1
-        h1 Titulo de primer nivel
+        h1 Historia de la animación
+      p.mb-5(data-aos="fade-right") La animación surge a partir de una idea que busca materializarse en una pieza audiovisual. El contenido, la forma, el tipo y la duración dependen del público al que se dirige. Su desarrollo implica varias etapas: creación del <em>storyboard</em>, diseño de personajes, elaboración del guion literario y técnico, hasta llegar a la producción final. Conocer su evolución histórica permite comprender los fundamentos técnicos, narrativos y tecnológicos que configuran la animación contemporánea. Por lo anterior, lo invitamos a profundizar y conocer la historia de la animación, que le brinda elementos determinantes, para comprender lo que es hoy día la animación:
+      .video.mb-1(data-aos="fade-left")
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/zstU0kg3VfM?si=IHT6R9E3aCxIVBas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption.fw-normal #[b Video:] Breve historia de la animación
+      Separador
+      #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 1.1.	Antecedentes y dispositivos precursores de la animación
+      p.mb-5(data-aos="fade-left") Desde las primeras manifestaciones gráficas hasta los dispositivos ópticos del siglo XIX, el ser humano desarrolló estrategias progresivas para representar el movimiento a partir de imágenes estáticas. Este recorrido permite comprender cómo la secuencialidad y la ilusión óptica se consolidaron como fundamentos técnicos de la animación. Antes de analizar la evolución cinematográfica, se presentan los principales antecedentes organizados cronológicamente.
+      LineaTiempoE.color-acento-contenido.mb-5(data-aos="fade-right")
+        .row(titulo="36.000-13.000 a.d.C.")
+          .col-lg-3.mb-3.mb-lg-0
+            figure
+              img.img200(src='@/assets/curso/tema1/lt/1.png', alt='')
+          .col-lg-9.mb-4.mb-lg-0
+            h4 Cuevas de Altamira
+            p En estas cuevas aparecen representaciones como un jabalí con ocho patas y caballos con varias cabezas. Estas imágenes han sido interpretadas como las primeras intenciones humanas de representar el movimiento, ya que la multiplicidad de extremidades sugiere desplazamiento y dinamismo en una figura estática.
+        .row(titulo="2000 a. d. C.")
+          .col-lg-3.mb-3.mb-lg-0
+            figure
+              img.img200(src='@/assets/curso/tema1/lt/2.png', alt='')
+          .col-lg-9.mb-4.mb-lg-0
+            h4 Egipto
+            p En tiras pictóricas halladas en templos egipcios se identifican secuencias de personas y animales en posiciones progresivas. Estas representaciones organizadas en serie evidencian una comprensión temprana de la secuencialidad como recurso para sugerir acción.
+        .row(titulo="1824")
+          .col-lg-3.mb-3.mb-lg-0
+            figure
+              img.img200(src='@/assets/curso/tema1/lt/3.png', alt='')
+          .col-lg-9.mb-4.mb-lg-0
+            h4 Taumatropo (París)
+            p Dispositivo compuesto por un disco de cartón con dos imágenes afines, una en cada lado. Al hacerlo girar rápidamente sobre su eje horizontal mediante dos cordones atados a los extremos, las imágenes se integran visualmente, generando la ilusión de una sola escena en movimiento.
+        .row(titulo="1829")
+          .col-lg-3.mb-3.mb-lg-0
+            figure
+              img.img200(src='@/assets/curso/tema1/lt/4.png', alt='')
+          .col-lg-9.mb-4.mb-lg-0
+            h4 Estroboscopio (Austria) - Simon von Stampfer
+            p Disco giratorio que permite percibir distintas fases del movimiento de un objeto o imagen en secuencia. Funciona cancelando la percepción o la iluminación en el instante preciso de transición entre imágenes, lo que produce la sensación de un movimiento continuo y fluido.
+        .row(titulo="1834")
+          .col-lg-3.mb-3.mb-lg-0
+            figure
+              img.img200(src='@/assets/curso/tema1/lt/5.png', alt='')
+          .col-lg-9.mb-4.mb-lg-0
+            h4 Zootropo - William George Horner
+            p Variación del estroboscopio. Consiste en un cilindro giratorio con rendijas verticales espaciadas regularmente y una tira interna con imágenes en secuencia que rodea el tambor. Al girar, las imágenes se perciben como una acción continua.
+        .row(titulo="1877")
+          .col-lg-3.mb-3.mb-lg-0
+            figure
+              img.img200(src='@/assets/curso/tema1/lt/6.png', alt='')
+          .col-lg-9.mb-4.mb-lg-0
+            h4 Praxinoscopio - Émile Reynaud
+            p Artefacto basado en los mismos principios del zootropo, pero sustituye las rendijas por un sistema de espejos ubicados en el centro del cilindro. Esto permite una percepción más clara y estable de la secuencia animada.    
+      p.mb-5(data-aos="fade-left") Estos antecedentes consolidaron el principio fundamental de la animación: la sucesión organizada de imágenes estáticas para producir la sensación de movimiento continuo.
+      #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 1.2.	Consolidación cinematográfica y evolución tecnológica de la animación
+      p.mb-0(data-aos="fade-right") Con la incorporación del registro en celuloide y el desarrollo del lenguaje cinematográfico, la animación dejó de ser un experimento óptico para convertirse en un medio narrativo con identidad propia. Durante el siglo XX y XXI, los avances técnicos transformaron tanto su dimensión artística como industrial. A continuación, se presentan los principales hitos organizados cronológicamente.
+        .row.justify-content-center.mb-5
+        .col-lg-10.col-md-12
+      LineaTiempoD.color-secundario.mb-4(data-aos="fade-left")
+        //- 1906
+        div(numero="1906" titulo="Fases humorísticas de caras divertidas - <em>Stuart Blackton</em>")
+          .row.align-items-center.p-4
+            .col-md-4.mb-3.mb-md-0
+              figure
+                img(src='@/assets/curso/tema1/lt2/img1.png', alt='Fases humorísticas')
+            .col-md-8
+              p.mb-0 Considerada una de las primeras animaciones registradas en <em>celuloide</em>. <em>Blackton</em> utilizó un tablero y tiza para dibujar rostros que se borraban y redibujaban levemente desplazados en cada fotograma. Esta técnica generaba la ilusión de movimiento mediante la sucesión de imágenes estáticas.
+        //- Años 20
+        div(numero="Años 20" titulo="Felix <em>the Cat</em> y <em>Gertie the Dinosaur</em>")
+          .row.align-items-center.p-4
+            .col-md-4.mb-3.mb-md-0
+              figure
+                img(src='@/assets/curso/tema1/lt2/img2.png', alt='Felix y Gertie')
+            .col-md-8
+              p.mb-0 Estas producciones introdujeron una trama estructurada, narrativa lógica y personajes con personalidad definida. Además, incorporaron el uso sistemático de fotogramas clave (<em>keyframes</em>), consolidando principios técnicos fundamentales en la animación tradicional.
+        //- 1928 (El de tu imagen de referencia)
+        div(numero="1928" titulo="<em>Steamboat Willie - Walt Disney y Ub Iwerks</em>")
+          .row.align-items-center.p-4
+            .col-md-4.mb-3.mb-md-0
+              figure
+                img(src='@/assets/curso/tema1/lt2/img3.png', alt='Steamboat Willie')
+            .col-md-8
+              p.mb-0 Cortometraje considerado pionero en la sincronización total entre sonido y acción en pantalla. Representa el debut oficial de <em>Mickey Mouse</em> y marca un avance determinante en la integración técnica del audio con la animación.
+        //- 1930–1969
+        div(numero="1930–1969" titulo="<em>Merrie Melodies - Warner Brothers</em>")
+          .row.align-items-center.p-4
+            .col-md-4.mb-3.mb-md-0
+              figure
+                img(src='@/assets/curso/tema1/lt2/img4.png', alt='Merrie Melodies')
+            .col-md-8
+              p.mb-0 Serie de cortometrajes animados con sonido y color que consolidaron la producción masiva de dibujos animados. Junto con <em>Walt Disney Studios</em>, establecieron el modelo industrial de animación cinematográfica.
+        //- 1937
+        div(numero="1937" titulo="Blancanieves y los siete enanitos - <em>Walt Disney Studios</em>")
+          .row.align-items-center.p-4
+            .col-md-4.mb-3.mb-md-0
+              figure
+                img(src='@/assets/curso/tema1/lt2/img5.png', alt='Blancanieves')
+            .col-md-8
+              p.mb-0 Primer largometraje animado producido por este estudio. Constituye una innovación técnica y artística al demostrar que la animación podía sostener una narrativa extensa con profundidad emocional y calidad técnica.
+        //- 1988
+        div(numero="1988" titulo="¿Quién engañó a <em>Roger Rabbit</em>?")
+          .row.align-items-center.p-4
+            .col-md-4.mb-3.mb-md-0
+              figure
+                img(src='@/assets/curso/tema1/lt2/img6.png', alt='Roger Rabbit')
+            .col-md-8
+              p.mb-0 Primer largometraje que combinó de manera integral actores reales con personajes animados dentro de una misma narrativa, integrando técnicas de composición y efectos especiales avanzados para la época.
+        //- 1995
+        div(numero="1995" titulo="<em>Toy Story – Pixar Animation Studios</em>")
+          .row.align-items-center.p-4
+            .col-md-4.mb-3.mb-md-0
+              figure
+                img(src='@/assets/curso/tema1/lt2/img7.png', alt='Toy Story')
+            .col-md-8
+              p.mb-0 Primera película animada realizada en su totalidad mediante medios digitales. Marcó el inicio del predominio de la animación 3D generada por computador en la industria cinematográfica.
+        //- Siglo XXI
+        div(numero="Siglo XXI" titulo="Animación digital realista")
+          .row.align-items-center.p-4
+            .col-md-4.mb-3.mb-md-0
+              figure
+                img(src='@/assets/curso/tema1/lt2/img8.png', alt='Animación digital')
+            .col-md-8
+              p.mb-0 La animación 3D orienta su desarrollo hacia la reproducción precisa de dinámicas físicas del mundo real. Cada nueva producción implica avances en <em>software, hardware</em>, simulación de partículas, iluminación y complejidad narrativa.
+        //- Actualidad
+        div(numero="Actualidad" titulo="Inteligencia Artificial (IA)")
+          .row.align-items-center.p-4
+            .col-md-4.mb-3.mb-md-0
+              figure
+                img(src='@/assets/curso/tema1/lt2/img9.png', alt='IA en animación')
+            .col-md-8
+              p.mb-0 La incorporación de algoritmos de aprendizaje automático permite automatizar procesos como interpolación de movimiento, generación de escenarios, optimización de renderizado y creación asistida de personajes, ampliando las posibilidades creativas y técnicas.
+      p.mb-0(data-aos="fade-right") De esta manera, la animación evidencia una evolución continua que integra innovación técnica, desarrollo narrativo y transformación industrial desde sus antecedentes prehistóricos hasta la incorporación de INTELIGENCIA ARTIFICIAL en la actualidad.
 
 </template>
-
 <script>
 export default {
   name: 'Tema1',
@@ -25,5 +155,4 @@ export default {
   },
 }
 </script>
-
 <style lang="sass"></style>
