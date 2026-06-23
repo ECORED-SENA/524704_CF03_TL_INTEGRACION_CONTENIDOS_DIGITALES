@@ -9,7 +9,7 @@
       p.mb-5(data-aos="fade-right") La animación surge a partir de una idea que busca materializarse en una pieza audiovisual. El contenido, la forma, el tipo y la duración dependen del público al que se dirige. Su desarrollo implica varias etapas: creación del <em>storyboard</em>, diseño de personajes, elaboración del guion literario y técnico, hasta llegar a la producción final. Conocer su evolución histórica permite comprender los fundamentos técnicos, narrativos y tecnológicos que configuran la animación contemporánea. Por lo anterior, lo invitamos a profundizar y conocer la historia de la animación, que le brinda elementos determinantes, para comprender lo que es hoy día la animación:
       .video.mb-1(data-aos="fade-left")
         iframe(width="560" height="315" src="https://www.youtube.com/embed/zstU0kg3VfM?si=IHT6R9E3aCxIVBas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption.fw-normal #[b Video:] Breve historia de la animación
+      figcaption.fw-normal #[b Video:] breve historia de la animación
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.1.	Antecedentes y dispositivos precursores de la animación

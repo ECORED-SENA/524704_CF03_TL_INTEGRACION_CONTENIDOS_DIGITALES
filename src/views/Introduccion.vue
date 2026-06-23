@@ -13,7 +13,7 @@
       figure(data-aos="fade-right")
         .video.mb-2
           iframe(width="560" height="315" src="https://www.youtube.com/embed/qDKOxanFT88?si=qfo2PA_gXmm_XOgj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption.fw-normal #[b Video:] Fundamentos de la animación: introducción
+        figcaption.fw-normal #[b Video:] fundamentos de la animación: introducción
 
 </template>
 
