@@ -169,7 +169,7 @@ export default {
     {
       termino: '<em>Keyframes/Keys</em>',
       significado:
-        'son las posiciones más importantes dentro de una escena. Dentro de un <em>software</em> son los puntos que se establecen en el <em>timeline</em> para posicionar cambios de posición, escala, entre otros.',
+        'son las posiciones más importantes dentro de una escena. Dentro de un <em>software</em>, son los puntos que se establecen en el <em>timeline</em> para posicionar cambios de posición, escala, entre otros.',
     },
     {
       termino: '<em>Layout</em>',
@@ -214,7 +214,7 @@ export default {
     {
       termino: '<em>Stop motion</em>',
       significado:
-        'técnica de animación que consiste en simular el movimiento de objetos estáticos mediante imágenes fijas sucesivas. Generalmente también se denomina animación fotograma a fotograma y se utiliza para animar distintos objetos.',
+        'técnica de animación que consiste en simular el movimiento de objetos estáticos mediante imágenes fijas sucesivas. Generalmente, también se denomina animación fotograma a fotograma y se utiliza para animar distintos objetos.',
     },
   ],
   referencias: [

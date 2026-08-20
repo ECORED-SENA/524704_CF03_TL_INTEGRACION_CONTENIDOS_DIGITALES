@@ -85,8 +85,8 @@
       #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.2 Herramientas digitales  
       p.mb-3(data-aos="fade-left") En la actualidad, la tecnología permea la vida cotidiana en el trabajo, el hogar, la comunidad y la familia, estableciendo un vínculo permanente con el entorno. Por ello, resulta indispensable comprender y utilizar adecuadamente herramientas tecnológicas y digitales. En el campo de la animación, los programas de diseño audiovisual permiten desarrollar habilidades creativas e innovadoras, fortaleciendo procesos de producción gráfica y narrativa.
-      p.mb-5(data-aos="fade-left") Entre los programas más representativos para la animación digital se encuentran aplicaciones de escritorio de <em>Adobe Creative Cloud</em> y <em>Autodesk</em>, así como otros entornos especializados en modelado y gráficos en movimiento. A continuación, se describen sus principales características y aplicaciones.   
-      .row.justify-content-center.mb-5
+      p.mb-4(data-aos="fade-left") Entre los programas más representativos para la animación digital se encuentran aplicaciones de escritorio de <em>Adobe Creative Cloud</em> y <em>Autodesk</em>, así como otros entornos especializados en modelado y gráficos en movimiento. A continuación, se describen sus principales características y aplicaciones.   
+      .row.justify-content-center.mb-4
         .col-lg-10  
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="<em>Adobe After Effects</em>")

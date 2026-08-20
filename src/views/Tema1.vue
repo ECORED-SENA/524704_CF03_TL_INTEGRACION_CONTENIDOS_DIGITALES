@@ -6,10 +6,11 @@
         .titulo-principal__numero
           span 1
         h1 Historia de la animación
-      p.mb-5(data-aos="fade-right") La animación surge a partir de una idea que busca materializarse en una pieza audiovisual. El contenido, la forma, el tipo y la duración dependen del público al que se dirige. Su desarrollo implica varias etapas: creación del <em>storyboard</em>, diseño de personajes, elaboración del guion literario y técnico, hasta llegar a la producción final. Conocer su evolución histórica permite comprender los fundamentos técnicos, narrativos y tecnológicos que configuran la animación contemporánea. Por lo anterior, lo invitamos a profundizar y conocer la historia de la animación, que le brinda elementos determinantes, para comprender lo que es hoy día la animación:
-      .video.mb-1(data-aos="fade-left")
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/zstU0kg3VfM?si=IHT6R9E3aCxIVBas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption.fw-normal #[b Video:] breve historia de la animación
+      p.mb-4(data-aos="fade-right") La animación surge a partir de una idea que busca materializarse en una pieza audiovisual. El contenido, la forma, el tipo y la duración dependen del público al que se dirige. Su desarrollo implica varias etapas: creación del <em>storyboard</em>, diseño de personajes, elaboración del guion literario y técnico, hasta llegar a la producción final. Conocer su evolución histórica permite comprender los fundamentos técnicos, narrativos y tecnológicos que configuran la animación contemporánea. Por lo anterior, lo invitamos a profundizar y conocer la historia de la animación, que le brinda elementos determinantes para comprender lo que es hoy día la animación:
+      figure.mb-0
+        .video.mb-1(data-aos="fade-left")
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/zstU0kg3VfM?si=IHT6R9E3aCxIVBas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption.fw-normal #[b Video:] breve historia de la animación
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.1.	Antecedentes y dispositivos precursores de la animación
@@ -57,12 +58,11 @@
           .col-lg-9.mb-4.mb-lg-0
             h4 Praxinoscopio - Émile Reynaud
             p Artefacto basado en los mismos principios del zootropo, pero sustituye las rendijas por un sistema de espejos ubicados en el centro del cilindro. Esto permite una percepción más clara y estable de la secuencia animada.    
-      p.mb-5(data-aos="fade-left") Estos antecedentes consolidaron el principio fundamental de la animación: la sucesión organizada de imágenes estáticas para producir la sensación de movimiento continuo.
+      p.mb-0(data-aos="fade-left") Estos antecedentes consolidaron el principio fundamental de la animación: la sucesión organizada de imágenes estáticas para producir la sensación de movimiento continuo.
+      Separador
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.2.	Consolidación cinematográfica y evolución tecnológica de la animación
-      p.mb-0(data-aos="fade-right") Con la incorporación del registro en celuloide y el desarrollo del lenguaje cinematográfico, la animación dejó de ser un experimento óptico para convertirse en un medio narrativo con identidad propia. Durante el siglo XX y XXI, los avances técnicos transformaron tanto su dimensión artística como industrial. A continuación, se presentan los principales hitos organizados cronológicamente.
-        .row.justify-content-center.mb-5
-        .col-lg-10.col-md-12
+      p.mb-4(data-aos="fade-right") Con la incorporación del registro en celuloide y el desarrollo del lenguaje cinematográfico, la animación dejó de ser un experimento óptico para convertirse en un medio narrativo con identidad propia. Durante los siglo XX y XXI, los avances técnicos transformaron tanto su dimensión artística como industrial. A continuación, se presentan los principales hitos organizados cronológicamente.
       LineaTiempoD.color-secundario.mb-4(data-aos="fade-left")
         //- 1906
         div(numero="1906" titulo="Fases humorísticas de caras divertidas - <em>Stuart Blackton</em>")
@@ -136,7 +136,7 @@
                 img(src='@/assets/curso/tema1/lt2/img9.png', alt='IA en animación')
             .col-md-8
               p.mb-0 La incorporación de algoritmos de aprendizaje automático permite automatizar procesos como interpolación de movimiento, generación de escenarios, optimización de renderizado y creación asistida de personajes, ampliando las posibilidades creativas y técnicas.
-      p.mb-0(data-aos="fade-right") De esta manera, la animación evidencia una evolución continua que integra innovación técnica, desarrollo narrativo y transformación industrial desde sus antecedentes prehistóricos hasta la incorporación de INTELIGENCIA ARTIFICIAL en la actualidad.
+      p.mb-0(data-aos="fade-right") De esta manera, la animación evidencia una evolución continua que integra innovación técnica, desarrollo narrativo y transformación industrial desde sus antecedentes prehistóricos hasta la incorporación de Inteligencia Artificial en la actualidad.
 
 </template>
 <script>

@@ -22,7 +22,7 @@
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.1 Tipos de animación
       p.mb-5(data-aos="fade-left") Desde la animación tradicional basada en células transparentes hasta la incorporación del computador en los procesos creativos, la animación ha experimentado transformaciones significativas. La digitalización permitió crear escenarios, personajes y secuencias con mayor agilidad, optimizando etapas como delineado, colorización, efectos y movimiento. A continuación, se describen los principales tipos de animación y sus características técnicas.
-      .bg-full-width.bg-fondo-slider.mb-5
+      .bg-full-width.bg-fondo-slider.mb-4
         .p-4.p-lg-5
           SlyderA(tipo="b").bg-color-white.p-4.tarjeta
             .row.justify-content-center.align-items-center.p-3.p-lg-4
@@ -73,12 +73,12 @@
                   img(src='@/assets/curso/tema2/7.png', alt='' style="max-width: 500px").m-auto
               .col-lg-5.mb-4.mb-md-0.order-lg-1
                 h4 Animación 3D
-                p.mb-0 Consiste en la manipulación y movimiento digital de objetos tridimensionales definidos por ancho (X), alto (Y) y profundidad (Z) dentro de un espacio virtual. El proceso inicia con el modelado digital de personajes y escenarios. Posteriormente, se integra un sistema de esqueleto mediante <em>Rigging</em>, que permite manipular la malla. El movimiento se estructura a través de fotogramas clave o <em>keyframes</em>, y el sistema genera automáticamente los fotogramas intermedios para lograr fluidez. La calidad final depende de la experticia del modelador y animador, así como del tratamiento de iluminación, texturización y efectos visuales y físicos. La animación 3D busca representar en el entorno digital, con la mayor fidelidad posible, factores físicos y estéticos del mundo real o crear escenarios imposibles. Además, ha impulsado desarrollos como <em>Motion Capture</em>, realidad Virtual y realidad aumentada.
+                p.mb-0 Consiste en la manipulación y movimiento digital de objetos tridimensionales definidos por ancho (X), alto (Y) y profundidad (Z) dentro de un espacio virtual. El proceso inicia con el modelado digital de personajes y escenarios. Posteriormente, se integra un sistema de esqueleto mediante <em>Rigging</em>, que permite manipular la malla. El movimiento se estructura a través de fotogramas clave o <em>keyframes</em>, y el sistema genera automáticamente los fotogramas intermedios para lograr fluidez. La calidad final depende de la experticia del modelador y animador, así como del tratamiento de iluminación, texturización y efectos visuales y físicos. La animación 3D busca representar en el entorno digital, con la mayor fidelidad posible, factores físicos y estéticos del mundo real o crear escenarios imposibles. Además, ha impulsado desarrollos como <em>Motion Capture</em>, realidad virtual y realidad aumentada.
       p.mb-0(data-aos="fade-right") La diversidad de técnicas demuestra que la animación no es un procedimiento único, sino un campo interdisciplinar en constante transformación. Cada técnica responde a contextos tecnológicos, estéticos y narrativos específicos, ampliando las posibilidades creativas del lenguaje audiovisual.
       Separador
       #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.2 Principios de la animación
-      p.mb-5(data-aos="fade-right") Los principios de la animación son doce (12). Fueron desarrollados en la década de 1930 por los estudios <e>Disney</e> ante la necesidad de establecer un lenguaje común entre animadores y técnicos. Posteriormente, fueron sistematizados por Frank Thomas y Ollie Johnston. Estos principios se fundamentan en las leyes de la física y en el comportamiento orgánico del movimiento, con el objetivo de otorgar a los personajes mayor realismo físico y emocional. A continuación, se presentan los doce principios con su respectiva explicación técnica y conceptual.
+      p.mb-4(data-aos="fade-right") Los principios de la animación son doce (12). Fueron desarrollados en la década de 1930 por los estudios <e>Disney</e> ante la necesidad de establecer un lenguaje común entre animadores y técnicos. Posteriormente, fueron sistematizados por Frank Thomas y Ollie Johnston. Estos principios se fundamentan en las leyes de la física y en el comportamiento orgánico del movimiento, con el objetivo de otorgar a los personajes mayor realismo físico y emocional. A continuación, se presentan los doce principios con su respectiva explicación técnica y conceptual.
       .row.justify-content-center.mb-4
         .col-lg-10
           .bg--img_03
