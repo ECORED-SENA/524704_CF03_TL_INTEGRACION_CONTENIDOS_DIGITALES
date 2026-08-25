@@ -62,7 +62,7 @@
       Separador
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.2.	Consolidación cinematográfica y evolución tecnológica de la animación
-      p.mb-4(data-aos="fade-right") Con la incorporación del registro en celuloide y el desarrollo del lenguaje cinematográfico, la animación dejó de ser un experimento óptico para convertirse en un medio narrativo con identidad propia. Durante los siglo XX y XXI, los avances técnicos transformaron tanto su dimensión artística como industrial. A continuación, se presentan los principales hitos organizados cronológicamente.
+      p.mb-4(data-aos="fade-right") Con la incorporación del registro en celuloide y el desarrollo del lenguaje cinematográfico, la animación dejó de ser un experimento óptico para convertirse en un medio narrativo con identidad propia. Durante los siglos XX y XXI, los avances técnicos transformaron tanto su dimensión artística como industrial. A continuación, se presentan los principales hitos organizados cronológicamente.
       LineaTiempoD.color-secundario.mb-4(data-aos="fade-left")
         //- 1906
         div(numero="1906" titulo="Fases humorísticas de caras divertidas - <em>Stuart Blackton</em>")
